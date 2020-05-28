@@ -19,3 +19,5 @@
 | 图像分类 | Resnet50 | python | 30ms | - | - | - | - | 200ms |  - | -| - |
 | 图像分类 | Resnet50 | NCNN | - | - | - | - | - | - |  2500ms | -| - |
 | 多目标跟踪 | FairMOT | python | - | - | - | 70ms | - | - | - | -| 181ms |
+| 车道线检测 | LaneNet | python | - | - | - | - | - | - | - | 320ms | - |
+
