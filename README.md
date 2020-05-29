@@ -15,7 +15,7 @@
 | 姿态检测 | openpose | python | - | - | - | - | -| 40ms| - |  - | - |
 | 姿态检测 | openpose-tiny | python | - | - | - | - | - | - |  10ms | -| - |
 | 图像分类 | efficientNet-B0 | python | 40ms | - | - | - | - | 80ms | - | -| - |
-| 图像分类 | mobilenetv3 | python | 30ms | - | - | - | - | 100ms |  - | 48ms | - |
+| 图像分类 | mobilenetv3 | python | 30ms | - | - | - | - | 100ms |  - | 48ms/ncnn | - |
 | 图像分类 | Resnet50 | python | 30ms | - | - | - | - | 200ms |  - | -| - |
 | 图像分类 | Resnet50 | NCNN | - | - | - | - | - | - |  2500ms | 373ms | - |
 | 多目标跟踪 | FairMOT | python | - | - | - | 70ms | - | - | - | -| 181ms |
