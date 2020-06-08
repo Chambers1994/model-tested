@@ -18,8 +18,8 @@
 | 图像分类 | mobilenetv3 | python | 30ms | - | - | - | - | 100ms |  - | 48ms/ncnn | - |
 | 图像分类 | Resnet50 | python | 30ms | - | - | - | - | 200ms |  - | -| - |
 | 图像分类 | Resnet50 | NCNN | - | - | - | - | - | - |  2500ms | 373ms | - |
-| 图像分类 | VGG-16 | RKNN | - | - | - | - | - | - |  - | 119ms | - |
-| 图像分类 | VGG-19 | RKNN | - | - | - | - | - | - |  - | 117ms | - |
+| 图像分类 | VGG-16 | RKNN | 20ms | - | - | - | - | 110ms |  - | 119ms | - |
+| 图像分类 | VGG-19 | RKNN | 20ms | - | - | - | - | 170ms |  - | 117ms | - |
 | 多目标跟踪 | FairMOT | python | - | - | - | 70ms | - | - | - | -| 181ms |
 | 车道线检测 | LaneNet | python | - | - | - | - | - | - | - | 320ms | - |
 
