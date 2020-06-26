@@ -3,9 +3,13 @@
 
 | 场景 | 模型 | 环境 |GTX1060 | GTX1070 | GTX1080TI | GTX2080TI | i7-9550 |i5-9400F| SOM-RK3399 | TB-RK3399Pro |GTX1650
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |:-: |:-: |
-| 目标检测 | yolov3 | keras | 100ms | 80ms | 60ms | 50ms | - | - | - | 90ms | - |
+| 目标检测 | yolov3-416 | keras | 100ms | 80ms | 60ms | 50ms | - | - | - | 90ms | - |
+| 目标检测 | yolov3-416 | darknet | - | -| -| - | - | - | - | - | 150ms |
 | 目标检测 | yolov3-tensorRT | keras | - | - | 25ms | - | 65ms| - | - | - | - |
-| 目标检测 | yolov3-tiny | keras | - | - | - | - | -| 300ms|- | 30ms | - |
+| 目标检测 | yolov3-tiny | keras | - | - | - | - | -| 300ms|- | - | - |
+| 目标检测 | yolov3-tiny | rknn | / | / | / | / | /| /|/ | 30ms | / |
+| 目标检测 | yolov3-tiny-416 | darknet | - | - | - | - | -| -|- | - | 100ms |
+| 目标检测 | yolov4-608  | darknet | - | - | - | - | -| -|- | - | 270ms |
 | 目标检测 | darknet | c | - | - | - | - | -| -|- |  - | - |
 | 目标检测 | darknet-tiny | c | - | - | - | - | 10ms| - | - |  - | - |
 | 目标检测 | mobilenetv3-ssd | python | - | - | - | - | - | - | - | - | - |
