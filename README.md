@@ -10,13 +10,17 @@
 | 目标检测 | yolov3-tiny-416 | rknn | /   | /         | /       | /           | /         | /   |/            | 30ms        | / |
 | 目标检测 | yolov3-tiny-416 | darknet| - | -         | -       | -           | -       | -     |-            | -           | 100ms |
 | 目标检测 | yolov4-608  | darknet | -    | -         | -       | -           | -       | -     |-            |   -         | 270ms |
-| 目标检测 | yolov5s-640  | pytorch | 20ms | -        | -       | -           | -       | 500ms |-            | -           | - |
+| 目标检测 | yolov5s-640  | pytorch | 15ms| -         | -       | -           | -       | 20ms  |-            | -           | - |
+| 目标检测 | yolov5m-640  | pytorch | 33ms| -         | -       | -           | -       | -     |-            | -           | - |
+| 目标检测 | yolov5l-640  | pytorch | 50ms| -         | -       | -           | -       | -     |-            | -           | - |
+| 目标检测 | yolov5l-640  | pytorch | 84ms| -         | -       | -           | -       | -     |-            | -           | - |
+| 目标检测 | yolov5-SPP-640  | pytorch | 84ms| -      | -       | -           | -       | -     |-            | -           | - |
 | 目标检测 | mobilenetv3-ssd | python | - | -         | -       | -           | -       | -     | -           | -           | - |
-| 人脸识别 | deepface | python |       - |          - | -       | -           | -       | -     | -           | -           |  - |
-| 人脸检测 | libfacedetect | c | -        | -         | -       | -           | -       | 20ms   |  -         |  -          | - |
+| 人脸识别 | deepface | python |       -  |         - | -       | -           | -       | -     | -           | -           |  - |
+| 人脸检测 | libfacedetect | c | -        | -         | -       | -           | -       | 20ms  |  -          |  -          | - |
 | 人脸检测 | dbface | pytorch | -         | -         | -       | 100ms       | -       | -     | -           |  -          | - |
-| 姿态检测 | openpose | python | -        | -         | -       | -           | -       | 40ms   | -          |  -          | - |
-| 姿态检测 | openpose-tiny | python | -   | -          | -      | -           | -       | -     |  10ms       | -           | - |
+| 姿态检测 | openpose | python | -        | -         | -       | -           | -       | 40ms  | -           |  -          | - |
+| 姿态检测 | openpose-tiny | python | -   | -         | -       | -           | -       | -     |  10ms       | -           | - |
 | 图像分类 | efficientNet-B0 | python | 40ms | -      | -       | -           | -       | 80ms | -            | -           | - |
 | 图像分类 | mobilenetv2 | rknn | -       | -         | -       | -           | -       | -     |  -          | 120ms/rknn | - |
 | 图像分类 | mobilenetv3 | python | 30ms  | -         | -       | -           | -       | 100ms |  -          | 48ms/ncnn   | - |
