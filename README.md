@@ -12,7 +12,7 @@
 | 目标检测 | yolov3-tiny-416 | keras | -  | -         | -       | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov3-tiny-416 |darknet| -  | -         | -       | -           | 100ms   | -     |-            | -           | - |
 | 目标检测 | yolov4-608  | darknet | -    | -         | -       | -           | 270ms   | -     |-            |   -         |  |
-| 目标检测 | yolov4-tiny-416 |darknet| -  | -         | -       | -           | 100ms   | -     |-            |   -         |  |
+| 目标检测 | yolov4-tiny-416 |darknet| -  | -         | -       | -           | -       | -     |-            |   -         |  33ms |
 | 目标检测 | enetb0-yolov3|darknet| -     | -         | -       | -           | 100ms   | -     |-            |   -         |  |
 | 目标检测 | yolov5s-640  | pytorch | 15ms| -         | -       | -           | -       | 20ms  |-            | -           | - |
 | 目标检测 | yolov5m-640  | pytorch | 33ms| -         | -       | -           | -       | -     |-            | -           | - |
