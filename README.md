@@ -12,8 +12,12 @@
 | 目标检测 | yolov3-tiny-416 |      | rknn    | /     | /         | /         | /           | /       | /     |/            | 30ms        | / |
 | 目标检测 | yolov3-tiny-416 |      | keras   | -     | -         | -         | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov3-tiny-416 |      |darknet  | -     | -         | -         | -           | 100ms   | -     |-            | -           | - |
-| 目标检测 | yolov4-608  |          | darknet | -     | -         | -         | -           | 270ms   | -     |-            |   -         |  |
+| 目标检测 | yolov4-608  |          |darknet  | -     | -         | -         | -           | 270ms   | -     |-            |   -         |  |
 | 目标检测 | yolov4-tiny-416 |6.9B  |darknet  | -     | -         | -         | -           | 400ms   | -     |-            |   -         |  33ms |
+| 目标检测 | yolov4-608 |           |ncnn     | -     | -         | -         | -           | 5000ms  | -     |-            |   -         |  - |
+| 目标检测 | yolov4-608 |           |ncnn+vulkan| -   | -         | -         | -           | TODO  | -     |-            |   -         |  - |
+| 目标检测 | yolov4-tiny-416 |      |ncnn     | -     | -         | -         | -           | 180ms   | -     |-            |   -         |  - |
+| 目标检测 | yolov4-tiny-416 |      |ncnn+vulkan| -   | -         | -         | -           | TODO   | -     |-            |   -         |  - |
 | 目标检测 | enetb0-yolov3|         |darknet  | -     | -         | -         | -           | 100ms   | -     |-            |   -         |  |
 | 目标检测 | yolov5s-640  |13.2B    | pytorch | 15ms  | -         | -         | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov5m-640  |39.4B    | pytorch | 33ms  | -         | -         | -           | -       | -     |-            | -           | - |
