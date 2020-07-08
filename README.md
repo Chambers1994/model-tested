@@ -9,9 +9,12 @@
 | 目标检测 | yolov3-416 |           | darknet | -     | -         |   -       | -           | 150ms   | -     | -           |  -          | - |
 | 目标检测 | yolov3-416 |           | openvino| /     | /         | /         | /           |60ms/30ms| -     | /           | /           |  / |
 | 目标检测 | yolov3-416 |           | tensorRT| /     | /         | 25ms      | /           | /       | /     | /           | /           |  65ms |
+| 目标检测 | yolov3-416-fp16 |      | tensorRT|35ms   | TODO      | TODO      | TODO        | /       | /     | /           | /           |  TODO |
+| 目标检测 | yolov3-608-fp16 |      | tensorRT|70ms   | TODO      | TODO      | TODO        | /       | /     | /           | /           |  TODO |
 | 目标检测 | yolov3-tiny-416 |      | rknn    | /     | /         | /         | /           | /       | /     |/            | 30ms        | / |
 | 目标检测 | yolov3-tiny-416 |      | keras   | -     | -         | -         | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov3-tiny-416 |5.571B|darknet  | 33ms  | -         | -         | -           | 100ms   | -     |-            | -           | - |
+| 目标检测 | yolov3-tiny-608-fp16|  |tensorrt | 11ms  | -         | -         | -           | -       | -     |-            | -           | - |
 | 目标检测 | yolov4-608 |           |ncnn     | -     | -         | -         | -           | 5000ms  | -     |-            |   -         |  - |
 | 目标检测 | yolov4-608 |           |ncnn+vulkan| -   | -         | -         | -           | TODO  | -     |-            |   -         |  - |
 | 目标检测 | yolov4-608-fp16 |128.5B|darknet  | 80ms  | -         | -         | -           | 270ms   | -     |-            |   -         |  |
@@ -27,6 +30,7 @@
 | 目标检测 | mobilenetv3-ssd |      | python  | -     | -         | -         | -           | -       | -     | -           | -           | - |
 | 人脸识别 | deepface |             | python  |  -    |         - | -         | -           | -       | -     | -           | -           |  - |
 | 人脸检测 | libfacedetect |        | c       | -     | -         | -         | -           | 30ms    |       |  -          |  -          | - |
+| 人脸检测 | yolo-face |   6.94B    | darknet | 33ms  | -         | -         | -           | TODO    |       |  -          |  -          | - |
 | 人脸检测 | dbface |               | pytorch | -     | -         | -         | 100ms       | -       | -     | -           |  -          | - |
 | 姿态检测 | openpose |             | python  | -     | -         | -         | -           | -       | 40ms  | -           |  -          | - |
 | 姿态检测 | openpose-tiny |        | python  | -     | -         | -         | -           | -       | -     |  10ms       | -           | - |
