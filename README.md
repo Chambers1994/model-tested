@@ -33,6 +33,7 @@
 | 人脸检测 | yolo-face |   6.94B    | darknet | 33ms  | -         | -         | -           | TODO    |       |  -          |  -          | - |
 | 人脸检测 | dbface |               | pytorch | -     | -         | -         | 100ms       | -       | -     | -           |  -          | - |
 | 人脸检测 | retinaface-r50 |       | tensorrt| 130ms | -         | -         | TODO        | -       | -     | -           |  -          | - |
+| 人脸检测 | retinaface-RFB |       | NCNN    | -     | -         | -         | TODO        | -       | 7ms   | -           |  -          | - |
 | 姿态检测 | openpose |             | python  | -     | -         | -         | -           | -       | 40ms  | -           |  -          | - |
 | 姿态检测 | openpose-tiny |        | python  | -     | -         | -         | -           | -       | -     |  10ms       | -           | - |
 | 图像分类 | efficientNet-B0 |      | python  | 40ms  | -         | -         | -           | -       | 80ms | -            | -           | - |
