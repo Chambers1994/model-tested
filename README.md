@@ -20,7 +20,7 @@
 | 目标检测 | yolov4-608-fp16 |128.5B|darknet  | 80ms  | -         | -         | -           | 270ms   | -     |-            |   -         |  |
 | 目标检测 | yolov4-608-fp16 |      |tensorrt | 90ms? | -         | -         | -           | TODO    | -     |-            |   -         |  - |
 | 目标检测 | yolov4-tiny-416 |6.91  |darknet  | 33ms  | -         | -         | -           | 400ms   | -     |-            |   -         |  33ms |
-| 目标检测 | yolov4-tiny-416 |      |ncnn     | -     | -         | -         | -           | 180ms   | 135ms |-            |   -         |  - |
+| 目标检测 | yolov4-tiny-416 |      |ncnn     | -     | -         | -         | -           | 180ms   | 135ms |-            | 1500ms      |  - |
 | 目标检测 | yolov4-tiny-416 |      |ncnn+vulkan| -   | -         | -         | -           | TODO    | -     |-            |   -         |  - |
 | 目标检测 | enetb0-yolov3|         |darknet  | -     | -         | -         | -           | 100ms   | -     |-            |   -         |  |
 | 目标检测 | yolov5s-640  |13.2B    | pytorch | 15ms  | -         | -         | -           | -       | 300ms |-            | -           | - |
