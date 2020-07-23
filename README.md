@@ -15,14 +15,15 @@
 | 目标检测 | yolov3-tiny-416 |      | keras   | -     | -         | -         | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov3-tiny-416 |5.571B|darknet  | 33ms  | -         | -         | -           | 100ms   | -     |-            | -           | - |
 | 目标检测 | yolov3-tiny-608-fp16|  |tensorrt | 11ms  | -         | -         | -           | -       | -     |-            | -           | - |
+| 目标检测 | yolov4-416 |59.7B      |darknet  | 38ms  | -         | -         | -           | -       | -     |-            |   -         |  - |
 | 目标检测 | yolov4-608 |           |ncnn     | -     | -         | -         | -           | 5000ms  | -     |-            |   -         |  - |
 | 目标检测 | yolov4-608 |           |ncnn+vulkan| -   | -         | -         | -           | TODO    | -     |-            |   -         |  - |
-| 目标检测 | yolov4-608-fp16 |128.5B|darknet  | 80ms  | -         | -         | -           | 270ms   | -     |-            |   -         |  |
+| 目标检测 | yolov4-608 |128.5B     |darknet  | 70ms  | -         | -         | -           | 270ms   | -     |-            |   -         |  -|
 | 目标检测 | yolov4-608-fp16 |      |tensorrt | 90ms? | -         | -         | -           | TODO    | -     |-            |   -         |  - |
 | 目标检测 | yolov4-tiny-416 |6.91  |darknet  | 33ms  | -         | -         | -           | 400ms   | -     |-            |   -         |  33ms |
 | 目标检测 | yolov4-tiny-416 |      |ncnn     | -     | -         | -         | -           | 180ms   | 135ms |-            | 1500ms      |  - |
 | 目标检测 | yolov4-tiny-416 |      |ncnn+vulkan| -   | -         | -         | -           | TODO    | -     |-            |   -         |  - |
-| 目标检测 | enetb0-yolov3|         |darknet  | -     | -         | -         | -           | 100ms   | -     |-            |   -         |  |
+| 目标检测 | enetb0-yolov3|3.73B    |darknet  | 103ms | -         | -         | -           | 100ms   | -     |-            |   -         |  |
 | 目标检测 | yolov5s-640  |13.2B    | pytorch | 15ms  | -         | -         | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov5m-640  |39.4B    | pytorch | 33ms  | -         | -         | -           | -       | -     |-            | -           | - |
 | 目标检测 | yolov5l-640  |88.1B    | pytorch | 50ms  | -         | -         | -           | -       | -     |-            | -           | - |
