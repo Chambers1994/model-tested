@@ -25,6 +25,8 @@
 | 目标检测 | yolov4-tiny-416 |      |pytorch  | 40ms  | -         | -         | -           | -       | 50ms  |-            |   -         |  - |
 | 目标检测 | yolov4-tiny-416 |      |ncnn     | -     | -         | -         | -           | 180ms   | 135ms |-            | 1500ms      |  - |
 | 目标检测 | yolov4-tiny-416 |      |ncnn+vulkan| -   | -         | -         | -           | TODO    | -     |-            |   -         |  - |
+| 目标检测 | yolov4-pacsp-384-512|  |pytorch  | 30ms  | -         | -         | -           | -       | 350ms |-            |   -         |  - |
+
 | 目标检测 | enetb0-yolov3|3.73B    |darknet  | 103ms | -         | -         | -           | 100ms   | -     |-            |   -         |  |
 | 目标检测 | yolov5s-640  |13.2B    | pytorch | 15ms  | -         | -         | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov5m-640  |39.4B    | pytorch | 33ms  | -         | -         | -           | -       | -     |-            | -           | - |
@@ -40,8 +42,9 @@
 | 姿态检测 | openpose |             | python  | -     | -         | -         | -           | -       | 40ms  | -           |  -          | - |
 | 姿态检测 | openpose-tiny |        | python  | -     | -         | -         | -           | -       | -     |  10ms       | -           | - |
 | 图像分类 | efficientNet-B0 |      | python  | 40ms  | -         | -         | -           | -       | 80ms | -            | -           | - |
+| 图像分类 | densenet-bc-L100-k12|0.02M|pytorch| -    | -         | -         | -           | -       | -     |  -          |             | - |
 | 图像分类 | mobilenetv2 |          | rknn    | -     | -         | -         | -           | -       | -     |  -          | 120ms/rknn | - |
-| 图像分类 | mobilenetv3 |          | python  | 30ms  | -         | -         | -           | -       | 100ms |  -          | 48ms/ncnn   | - |
+| 图像分类 | mobilenetv3 |  31M     | python  | 30ms  | -         | -         | -           | -       | 100ms |  -          | 48ms/ncnn   | - |
 | 图像分类 | Resnet50 |             | python  | 30ms  | -         | -         | -           | -       | 200ms |  -          | -           | - |
 | 图像分类 | Resnet50 |             | NCNN    | -     | -         | -         | -           | -       | -     |  2500ms     | 373ms       |  - |
 | 图像分类 | VGG-16 |               | RKNN    | 20ms  | -         | -         |  -          | -       | 110ms |  -          | 119ms       | - |
