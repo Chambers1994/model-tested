@@ -26,8 +26,7 @@
 | 目标检测 | yolov4-tiny-416 |      |ncnn     | -     | -         | -         | -           | 180ms   | 135ms |-            | 1500ms      |  - |
 | 目标检测 | yolov4-tiny-416 |      |ncnn+vulkan| -   | -         | -         | -           | TODO    | -     |-            |   -         |  - |
 | 目标检测 | yolov4-pacsp-384-512|  |pytorch  | 30ms  | -         | -         | -           | -       | 350ms |-            |   -         |  - |
-
-| 目标检测 | enetb0-yolov3|3.73B    |darknet  | 103ms | -         | -         | -           | 100ms   | -     |-            |   -         |  |
+| 目标检测 | enetb0-yolov3|3.73B    |darknet  | 103ms | -         | -         | -           | 100ms   | -     |-            |   -         |  -|
 | 目标检测 | yolov5s-640  |13.2B    | pytorch | 15ms  | -         | -         | -           | -       | 300ms |-            | -           | - |
 | 目标检测 | yolov5m-640  |39.4B    | pytorch | 33ms  | -         | -         | -           | -       | -     |-            | -           | - |
 | 目标检测 | yolov5l-640  |88.1B    | pytorch | 50ms  | -         | -         | -           | -       | -     |-            | -           | - |
