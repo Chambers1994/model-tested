@@ -55,4 +55,4 @@
 | 车道线检测 | LaneNet |            | python     | -     | -         | -         | -           | -       | -     |  -          | 320ms       | - |
 | 实例分割 | maskrcnn |        | mmdetection | 210ms | -         | -         | -           | -       | -     |  -          | -       | - |
 | 语义分割 | light-weight |        | pytorch | 5ms | -         | -         | -           | -       | -     |  -          | -       | - |
-| 实例分割 | deep-snake |        | mmdetection | - | 60ms         | -         | -           | -       | -     |  -          | -       | - |
+| 实例分割 | deep-snake |        | pytorch | - | 60ms         | -         | -           | -       | -     |  -          | -       | - |
